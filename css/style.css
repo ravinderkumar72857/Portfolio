@@ -1,0 +1,45 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;}
+body{
+	padding: 10px;
+	margin: 10px;
+	background: transparent;
+}
+table,th,td{
+
+	border:2px solid green;
+	border-collapse: collapse;
+	width: 700px;
+	height: 50px;
+}
+.h2{
+	background: lightblue;
+	font-size: 18px;
+
+}
+.navbar{
+	background: ;
+}
+.right{ 
+	padding:  10px;
+	float: right;
+	border-radius: 10px;
+}
+.about{
+	
+	text-align: center;
+}
+.aabout{
+	margin-left: 170px;
+}
+a:hover{
+	color: green;
+}
+a:active{
+	color:red;
+}
+.es{
+	background: ;
+}
