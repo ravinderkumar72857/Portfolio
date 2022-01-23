@@ -1,100 +1,170 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>My portfolio</title>
-	<meta name="viewport"  content="width=device-width,initial-scale=1.0" charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-</head>
-<body>
-	<header>
-		<nav class="nav">
-			<div class="left">
-				<div class="logo">
-				<img style="max-width: 100%; height: auto;" title="Ravinder" src="./images/RK.png" alt="my pic" width="50px" height="50px">
-				
-				
-				</div>
-				<div class="right">
-				<a href="https://www.facebook.com/Ravinder.selonia/"><img src="./images/fb.png" width="35px" height="35px" ></a> 
-				<a href="https://www.instagram.com/ravinderkumar72857/"><img src="./images/insta.png" width="35px" height="35px" ></a>
-				<a href="https://www.linkedin.com/in/ravinder-prajapati-368808203"><img src="./images/lnkdn.png" width="40px" height="40px" ></a>
-				<a href="https://twitter.com/Ravinder3012425?s=09"><img src="./images/twitter.png" width="35px" height="35px"></a>
-			</div><br>
-				<div class="navbar">
-					<a href="#"><span>Home</span>&emsp;</a>
-					<a href="#"><span>Portfolio</span>&emsp;</a>
-					<a href="#"><span>Badges</span>&emsp;</a>
-				
-				</div>
+  <head>
+    <title>My portfolio</title>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0"
+      charset="utf-8"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="mainDiv">
+      <div id="headerDiv">
+    <header>
+      <img
+      id="headimg"
+        style="max-width: 100%; height: auto"
+        title="Ravinder"
+        src="./images/RK.png"
+        alt="my pic"
+        width="6%"
+        
+      />
+      <nav id="headnav">
+		<a  href="https://www.facebook.com/Ravinder.selonia/"
+				><img src="./images/fb.png" width="9%"
+			  /></a>
+        
+        <a  href="https://www.instagram.com/ravinderkumar72857/"
+				><img src="./images/insta.png" width="9%"
+			  /></a>
+			<a
+				href="https://www.linkedin.com/in/ravinder-prajapati-368808203"
+				><img src="./images/lnkdn.png" width="10%"
+			  /></a>
+        <a href="https://twitter.com/Ravinder3012425?s=09"
+				><img src="./images/twitter.png" width="9%"
+			  /></a>
+      </nav>
+      </header>
+	<nav class="nav_common" id="pgnav" style="letter-spacing:2px ;">
+        <a href="https://www.google.com/" target="_blank">Home</a>&nbsp;&nbsp;
+        <a href="https://www.google.com/" target="_blank">Portfolio</a>&nbsp;&nbsp;
+        <a href="#">Articles</a>&nbsp;&nbsp;
+        <a href="https://www.google.com/" target="_blank">Badges</a>&nbsp;&nbsp;
+      </nav>
+    </div>
+    <section>
+      <br><br>
+      <!-- fieldset 1 -->
+      <fieldset id="intro">
+      
+        
+          <img
+          id="rkimg"
+            title="Ravinder"
+            src="./images/RK.png"
+            alt="my pic"
+            width="10%"
+            
+          />
+        
+        <h1 id="first_h1">Ravinder</h1>
+        <br />
 
-			</div>
-			
-		</nav>
-
-	</header>
-	<hr>
-	<section>
-		<div class="about">
-			<div class="aabout"><img title="Ravinder" src="./images/RK.png" alt="my pic" width="100px" height="100px"></div>
-			<h1>RAVINDER</h1><br>
-
-			<p title="about me">A Web Designer and Developer in India. I specialize in Responsive Web Design, and Web Application Development</p>
-
-		</div>
-		<hr><br>
-		<div class="es">
-		<span class="h2"><b>Educational Details</b></span>
-		<table>
-				<thead>
-					<tr><th>Standard</th>
-					<th>Institute</th>
-					<th>marks</th>
-					<th>year</th></tr>
-				</thead>
-				<tbody>
-					<tr><td>10th</td>
-					<td>AMSSS</td>
-					<td>86.7%</td>
-					<td>2014</td></tr>
-					<tr>
-						<td>12th</td>
-						<td>Nav Jyoti Model Sr. Sec. SChool</td>
-						<td>80.2%</td>
-						<td>2016</td>
-					</tr>
-					<tr>
-						<td>Btech</td>
-						<td>SIET ,Nilokheri</td>
-						<td>72%</td>
-						<td>2021</td>
-					</tr>
-				</tbody>
-				<tfoot></tfoot>
-		</table>
-		<br><hr>
-		<span class="skills"><b>Skills</b></span>
-		<ul>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>JAVA SCRIPT</li>
-			<li>JAVA</li>
-		</ul><hr><br> 
-
-		<span><b>Projects</b></span>
-			<dl>
-				<dt>Portfolio</dt>
-<dd>A Web page containing my qualifications skills & experience etc.
-					this web page is created using <b>HTML</b> and <b>CSS</b></dd>
-			</dl>
+        <p title="about me">
+          A Web Designer and Developer in India. I specialize in Responsive Web
+          Design, and Web Application Development
+        </p>
+      
+      </fieldset>
+      <br />
+      <h2 ><span id="span_edu"> EDUCATION DETAILS</span></h2>
+      <!-- fieldset education details -->
+      <fieldset id="edufs">
+        
+      
+		<br>
+        <table id="edutable">
+          <thead>
+            <tr>
+              <th>Standard</th>
+              <th>Institute</th>
+              <th>marks</th>
+              <th>year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>10th</td>
+              <td>AMSSS</td>
+              <td>86.7%</td>
+              <td>2014</td>
+            </tr>
+            <tr>
+              <td>12th</td>
+              <td>Nav Jyoti Model Sr. Sec. SChool</td>
+              <td>80.2%</td>
+              <td>2016</td>
+            </tr>
+            <tr>
+              <td>Btech</td>
+              <td>SIET ,Nilokheri</td>
+              <td>72%</td>
+              <td>2021</td>
+            </tr>
+          </tbody>
+          <tfoot></tfoot>
+        </table>
+      </fieldset>
+        <br />
+        <h2 ><span id="spanSkill">  SKILLS</span></h2>
+        <fieldset id="fieldsetSkill">
+        
 		
-		<div class="subscribe">
-			<label for="email"><b>Subscribe to my newsletter and never miss my upcoming articles</b></label>
-		<input  type="email" name="email" id="email" placeholder="email">
-		<button type="button">Subscribe</button>
-		</div></div>
-	</section>
-	<footer>
-		
-	</footer>
-</body>
+        <ul id="ul_skill">
+          <li><span> HTML</span></li>
+          <li><span> CSS</span></li>
+          <li><span>JAVA SCRIPT</span></li>
+          <li><span>JAVA</span></li>
+          <li><span>DATA STRUCTURE AND ALGORITHMS</span></li>
+        </ul>
+      </fieldset>
+        <br />
+
+        <h2 ><span id="spanProjects"> Projects</span></h2>
+        <fieldset id="fieldsetProjects">
+
+          <dl>
+            <fieldset id="fieldsetPortfolio">
+
+              <legend class="legend"><dt> <h3>Portfolio</h3></dt></legend>
+              <dd>
+                A Web page containing my qualifications skills & experience etc.
+                this web page is created using <b>HTML</b> and <b>CSS</b>
+              </dd>
+            </fieldset>
+            <br>
+            <fieldset id="fieldsetGoogleform">
+<legend class="legend"><dt> <h3>GoogleForm</h3></dt></legend>
+              
+              <dd>A Form which takes input from the intersted candidates like their email,oassing year,role for which they are interested and then a input for CV uploading and afinal submit button </dd>
+            </dl>
+          </fieldset>
+          </fieldset>
+		      <br>
+        <form action="">
+          <label for="email"
+            ><b
+              >Subscribe to my newsletter and never miss my upcoming articles</b
+            ></label
+          >
+          <input type="email" name="email" id="email" placeholder="email" />
+          <button type="button">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p>
+
+      </p>
+    </footer>
+  </div>
+  </body>
 </html>
